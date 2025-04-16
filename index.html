@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+<!--HEADER/NAVBAR-->
+<header class="hero">
+    <nav>
+      <h1 id="inicio">Estefanía Silva</h1> 
+      <ul class="nav-links">
+        <li><a href="#about-me">Sobre mí</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contactame">Contáctame</a></li>
+        <li><a href="#hero">Estefanía Silva</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!--HERO-->
+    <section id="hero">
+      <div class="hero-content">
+        <div class="hero-img">
+        <img src="./images/img-cartoon.png" alt="img-perfil" class="img-redonda" />
+      </div>
+      <div class="hero-text">
+        <h1><span class="highlight">Desarrolladora Junior Full-Stack</span></h1>
+        <h2>Front-end<br>Diseño de páginas Web</h2>      
+        <a href="#contactame" class="btn">Contáctame</a>
+      </div>
+      </div>
+    </section>
+
+    <!--SOBRE MÍ-->
+    <section id="about-me">
+      <figure class="headshot-container">
+      </figure>
+      <article class="informacion">
+        <h2>Sobre mí</h2>
+        <p>
+            Desarrolladora en formación apasionada por el frontend y todo lo visual.  
+            Disfruto transformar ideas en interfaces atractivas, funcionales y bien estructuradas.  
+            Tengo experiencia en maquetación web utilizando HTML y CSS, y actualmente me encuentro 
+            fortaleciendo mis habilidades en JavaScript como parte de un bootcamp de desarrollo de software full stack.  
+            Me inspira crear experiencias digitales con diseño limpio, detalle y personalidad.
+        </p>
+      </article>
+    </section>
+
+    <!--EXPERIENCIA-->
+    <section id="experiencia">
+      <h2>Experiencia</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span>2025</span>
+          <h4>Bootcamp Desarrollador Junior Full Stack - Generation Colombia</h4>
+          <p>Actualmente participo en un bootcamp intensivo donde estoy desarrollando habilidades en desarrollo web completo, incluyendo 
+            tecnologías frontend y backend como HTML, CSS, JavaScript, Java y bases de datos, trabajando en proyectos reales en equipo.</p>
+        </div>
+        <div class="timeline-item">
+          <span>2025</span>
+          <h4>Bootcamp Analisis de Datos- UdeA</h4>
+          <p>Participé en un bootcamp intensivo enfocado en análisis de datos, donde aprendí a utilizar herramientas como Python, Pandas, 
+            Numpy y visualización de datos para obtener insights y apoyar la toma de decisiones.</p>
+        </div>
+        <div class="timeline-item">
+          <span>2024</span>
+          <h4>Técnico Laboral en Asistente de Desarrollo Software-CESDE</h4>
+          <p>Comencé mi formación técnica en desarrollo de software en CESDE, fortaleciendo mis conocimientos en lógica de programación, 
+            bases de datos y desarrollo full-stack con enfoque práctico.</p>
+        </div>
+        <div class="timeline-item">
+          <span>2023</span>
+          <h4>Programación Web-Maquetación Web-UPB</h4>
+          <p>Inicié mis estudios en programación web en la UPB, donde aprendí los fundamentos del desarrollo frontend y 
+            la maquetación web. Este fue el punto de partida en mi camino como desarrolladora.</p>
+        </div>
+      </div>
+    </section>    
+
+    <!--PROYECTOS-->
+    <section id="projects"class="projects">
+        <h2>Proyectos</h2>
+        <div class="project-container">
+          <div class="project-card">
+            <img src="images/proyecto1.png" alt="Proyecto Uno">
+            <h3>Proyecto Uno</h3>
+            <p>Descripción breve de proyecto con detalles sobre la tecnología utilizada y el objetivo.</p>
+          </div>
+          <div class="project-card">
+            <img src="images/proyecto2.png" alt="Proyecto Dos">
+            <h3>Proyecto Dos</h3>
+            <p>Aplicación web diseñada con un enfoque en repostería y emprendedoras.</p>
+          </div>
+          <div class="project-card">
+            <img src="images/proyecto2.png" alt="Proyecto Dos">
+            <h3>Proyecto tres</h3>
+            <p>Aplicación web diseñada con un enfoque en repostería y emprendedoras.</p>
+          </div>
+        </div>
+    </section>
+
+    <!--CONTACTO-->
+      <section id="contactame" class="contact-section">
+        <div class="contact-container">
+          <h2>Contacto</h2>
+          <form class="contact-form">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Escribe tu mensaje aquí..." required></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>       
+      </section>
+    <!--footer-->  
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-contact">
+        <p><img src="./images/phone.png" alt="phone" class="footer-icon"> (+57) 123 456 7890</p>
+        <p><img src="./images/correo.png" alt="Email" class="footer-icon"> estefania@example.com</p>
+      </div>
+      <div class="footer-creditos">
+        <p>Estefanía Silva - Desarrolladora Junior Full-Stack</p>
+        <p>©2025</p>
+      </div>
+
+      <div class="footer-social">
+        <a href="https://www.facebook.com/TU_USUARIO" target="_blank">
+          <img src="./images/facebook.png" alt="Facebook" class="footer-social-icon">
+        </a>
+        <a href="https://www.instagram.com/estefaniasilva510/" target="_blank">
+          <img src="./images/instagram.png" alt="Instagram" class="footer-social-icon">
+        </a>
+        <a href="https://github.com/estefasilva" target="_blank">
+          <img src="./images/github.png" alt="github" class="footer-social-icon">
+        </a>
+      </div>
+      
+      </div>
+    </footer>
+  </main>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
