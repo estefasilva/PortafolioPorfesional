@@ -360,6 +360,13 @@ nav {
   border-radius: 10px;
   margin-bottom: 15px;
 }
+.github-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+}
 
 /* Contacto */
 .contact-section {
